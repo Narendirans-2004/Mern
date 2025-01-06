@@ -9,8 +9,10 @@ import App from './App.jsx';
 import UseContext from './Components/FunctionalComponents/UseContext.jsx'
 import UseState from './Components/FunctionalComponents/UseState.jsx'
 import UseEffect from './Components/FunctionalComponents/UseEffect.jsx'
+import SignUp from './Components/FunctionalComponents/SignUp.jsx'
+import Login from './Components/FunctionalComponents/Login.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <UseEffect/>
+    <App/>
   </StrictMode>
 )
